@@ -1,4 +1,5 @@
 import "./about.css";
+import spiraltree from "../../Images/spiraltree.jpeg"
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
-            src="/spiraltree.jpeg"
+            src={spiraltree}
             alt=""
             className="a-img"
           />
